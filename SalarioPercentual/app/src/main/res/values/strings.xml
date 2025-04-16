@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SalarioPercentual</string>
+    <string name="appTxtTitulo">Calculo do Salario</string>
+    <string name="appTxtSubTitulo">Digite seu salario (R$)</string>
+    <string name="appTxtSubTitulo2">Qual o percentual?</string>
+    <string name="appTxtHint">Digite aqui</string>
+    <string name="appTxtAumento40">40%</string>
+    <string name="appTxtAumento45">45%</string>
+    <string name="appTxtAumento50">50%</string>
+    <string name="appBtnSet">Calcular Salario</string>
+    <string name="appBtnReset">Limpar</string>
+    <string name="appTxtResultado">---</string>
+
+    <color name="clrLaranja">#0E2EBB</color>
+    <color name="clrCinza">#606060</color>
+</resources>
