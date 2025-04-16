@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Titulo" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subTitulo" />
+
+        <CheckBox
+            android:id="@+id/checkBoxArroz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkArroz" />
+
+        <CheckBox
+            android:id="@+id/checkBoxLeite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkLeite" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCarne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkCarne" />
+
+        <CheckBox
+            android:id="@+id/checkBoxFeijao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkFeijao" />
+
+        <CheckBox
+            android:id="@+id/checkBoxRefri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkRefrigerante" />
+
+        <TextView
+            android:id="@+id/textViewResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/txtResultado" />
+
+        <Button
+            android:id="@+id/buttonCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BtnTotal" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
