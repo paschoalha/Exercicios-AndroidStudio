@@ -1,6 +1,6 @@
-:
+#PROJETO NI-2
 
-📱 #Projetos Android – Programação de Dispositivos Móveis
+📱 Projetos Android – Programação de Dispositivos Móveis
 Este repositório reúne uma série de aplicações Android desenvolvidas como parte das atividades da disciplina de Programação de Dispositivos Móveis (PDM), utilizando Android Studio com Java e recursos nativos da plataforma. Os projetos foram focados em praticar a manipulação de interfaces gráficas (UI), componentes de entrada, navegação entre activities, e interação com o usuário.
 
 ✅ 1. Simulador de Compras com CheckBox
